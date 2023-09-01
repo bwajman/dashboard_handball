@@ -19,7 +19,7 @@ def score_result(df,x):
     return round(int(df[x].sum()),2)
 
 # load dataframe
-csv = '/Users/admin/handball.csv'
+csv = 'data/handball.csv'
 df = pd.read_csv(csv)
 
 # sidebar
